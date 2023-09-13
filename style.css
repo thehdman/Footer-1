@@ -60,7 +60,7 @@ footer {
     border-bottom: 1px solid greenyellow;
 }
 
-.media-icon {
+.footer-media-icon {
     padding-top: 30px;
 }
 
@@ -68,6 +68,8 @@ footer {
     width: 35px;
     padding: 5px;
 }
+
+
 
 .footer-copyright {
     position: relative;
