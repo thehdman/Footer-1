@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    color: #fff;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.footer {
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-about {
+    width: 350px;
+}
+
+.footer-about hr {
+    border-top: 1px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
+}
+
+.footer-about-paragraph {
+    font-size: 19px;
+    color: gainsboro;
+}
+
+.footer-elements hr {
+    width: 250px;
+    border-top: 1px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
+}
+
+.footer-elements-list {
+    list-style: none;
+    padding-left: 1px;
+}
+
+.footer-elements-link {
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 19px;
+}
+
+.footer-elements-item :hover {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-icons hr {
+    border-top: 1px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
+}
+
+.media-icon {
+    padding-top: 30px;
+}
+
+.footer-media-img {
+    width: 35px;
+    padding: 5px;
+}
+
+.footer-copyright {
+    position: relative;
+    top: 0px;
+    height: 40px;
+    background-color: rgb(58, 57, 57);
+}
+
+.footer-copyright-item {
+    float: right;
+    padding-right: 20px;
+    margin-top: 12px;
+}
