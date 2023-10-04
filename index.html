@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/2b907524cb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <title>Footer-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">    
 </head>
-
 <body>
     <footer>
-        <div class="footer">
-            <div class="footer-about">
-                <h1>About</h1>
-                <hr>
-                <p class="footer-about-paragraph">This websit is a automobile showroom website. This website exhibits
-                    well the featured vehicles using clear, neat tabs. The website utilizes the search feature to highly
-                    motivate users or visitors to use your website</p>
-            </div>
-            <div class="footer-elements">
-                <h1>Important Links</h1>
-                <hr>
-                <ul class="footer-elements-list">
-                    <li class="footer-elements-item"><a href="#" class="footer-elements-link">Home</a></li>
-                    <li class="footer-elements-item"><a href="#" class="footer-elements-link">Search Car</a></li>
-                    <li class="footer-elements-item"><a href="#" class="footer-elements-link">About Us</a></li>
-                    <li class="footer-elements-item"><a href="#" class="footer-elements-link">Our Contack</a></li>
-                    <li class="footer-elements-item"><a href="#" class="footer-elements-link">Our Services</a></li>
-                </ul>
-            </div>
-            <div class="footer-icons">
-                <h1>Follow Us</h1>
-                <hr>
-                <div class="footer-media-icon">
-                    <a href="https://www.instagram.com/"><img src="instagram.png" alt="instagram"
-                            class="footer-media-img"></a>
-                    <a href="https://www.facebook.com/"><img src="facebook.png" alt="facebook"
-                            class="footer-media-img"></a>
-                    <a href="https://www.twitter.com/"><img src="twitter.png" alt="twitter"
-                            class="footer-media-img"></a>
-                    <a href="https://www.linkedin.com/"><img src="linkedin.png" alt="linkedin"
-                            class="footer-media-img"></a>
+        <section class="footer-top bg-dark text-white">
+            <div class="container footer-box py-5">
+                <div class="row">
+                    <div class="col-md-4 footer-column">
+                       <div class="footer-about">
+                        <h1 class="footer-title">About</h1>
+                        <p class="footer-about-paragraph fs-5">This websit is a automobile showroom website. This website exhibits
+                            well the featured vehicles using clear, neat tabs. The website utilizes the search feature to highly
+                            motivate users or visitors to use your website</p>
+                       </div>
+                    </div>
+                    <div class="col-md-4 offset-md-1 footer-column">
+                        <div class="footer-links">
+                            <h1 class="footer-title">Important Links</h1>
+                        <ul class="list-unstyled">
+                            <li class="fs-5"><a href="#">Home</a></li>
+                            <li class="fs-5"><a href="#">Search Car</a></li>
+                            <li class="fs-5"><a href="#">About Us</a></li>
+                            <li class="fs-5"><a href="#">Our Contacts</a></li>
+                            <li class="fs-5"><a href="#">Our Services</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-column">
+                        <div class="footer-icons">
+                            <h1 class="footer-title">Follow Us</h1>
+                        <ul class="list-unstyled d-flex">
+                            <li class="pe-2"><img src="Images/instagram.png" alt="instagram" class="w-75"></li>
+                            <li class="px-2"><img src="Images/facebook.png" alt="facebook" class="w-75"></li>
+                            <li class="px-2"><img src="Images/twitter.png" alt="twitter" class="w-75"></li>
+                            <li class="px-2"><img src="Images/linkedin.png" alt="linkedin" class="w-75"></li>
+                        </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <small class="footer-copyright-item"><i class="far fa-copyright"></i>&nbsp; hd_Showroom2023</small>
-        </div>
+        </section>
+        <section class="footer-bottom bg-secondary">
+            <div class="container">
+                <div class="row py-2">
+                    <div class="col footer-copyright-box">
+                        <small class="footer-copyright-item"><i class="far fa-copyright"></i>&nbsp; hd_Showroom2023</small>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
-
-</html>
+</html>    
