@@ -24,28 +24,3 @@ a{
     font-size: 20px;
     margin: 20px;
 }
-@media (max-width: 575.98px) { 
-    .footer-title{
-        font-size: 30px;
-    }
-    .footer-copyright-box{
-        text-align: center;
-    }
- }
-
- @media (max-width: 767.98px) { 
-    .footer-column{
-        margin-bottom: 10px;
-    }
-  }
-@media (max-width: 991.98px) { 
-    .footer-box{
-        padding: 30px;
-    }
-    .footer-title{
-        font-size: 29px;
-    }
-    .footer-items{
-        font-size: 18px;
-    }
- }  
